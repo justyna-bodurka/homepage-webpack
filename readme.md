@@ -1,18 +1,19 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# My first homepage
 
-Simple toolkit for your static websites development.
+a simple site created for the **wtf** course
 
-## How to use it?
+## what can you find here?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- main site: section about me
+- subsites: create to learn navigation
 
-## Available scripts
+## what was used on site:
 
-`npm run start` - runs development mode
+- html
+- css
+- js
 
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+## technologies:
+webpack starterKid
