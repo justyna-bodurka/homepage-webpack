@@ -52,13 +52,13 @@ body {
 }
 
 .article {
-  
+  background: rgba(247, 239, 239, 0.267);
   margin-top: 10px;
   border: 1px solid #f4d8cd;
   padding: 16px;
 
   &__description {
-    color: #ec0868;
+    color: #555;
   }
   &__link {
     color: inherit;
