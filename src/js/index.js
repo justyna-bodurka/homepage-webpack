@@ -71,3 +71,20 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('main-navigation--open');
 })
 
+fetch('https://api.github.com/users/justyna-bodurka/repos?sort=created')
+.then(resp => resp.json())
+.then(resp => {
+  for (let repo of resp) {
+    const {name, html_url} = repo;
+    const repositoryList = document.querySelector('.list--js');
+    const myTemplate = `<li class="dupa-list">
+      ${name} <a href= "${html_url}" title = "link do repozytorium ${name} na githubie"> link do githuba </a>
+    </li>`;
+    repositoryList.innerHTML += myTemplate;
+
+  
+  }
+})
+.catch(error => {
+  console.log('nie udało się pobrać');
+})

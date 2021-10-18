@@ -58,7 +58,7 @@ body {
   padding: 16px;
 
   &__description {
-    color: #555;
+    color: #555; 
   }
   &__link {
     color: inherit;
@@ -101,7 +101,9 @@ body {
     padding-bottom: 10px;
   }
 }
-
+.dupa-list {
+background: red;
+}
 nav a {
   color: royalblue;
 }
